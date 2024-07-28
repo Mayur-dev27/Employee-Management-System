@@ -2,17 +2,17 @@
 
 This project is an Employee Management System built using Hibernate ORM, which performs various CRUD operations and provides functionalities like aggregate functions and HQL/native queries.
 
-Features
+## Features:
 CRUD Operations: Create, Read, Update, Delete employee records.
 HQL Queries: Execute HQL queries to fetch and manipulate employee data.
 Native Queries: Execute native SQL queries for specific operations.
 Aggregate Functions: Perform aggregate functions such as total, average, min, and max salaries.
-Technologies Used
+## Technologies Used:
 Java: Core language used for development.
 Hibernate ORM: For ORM mapping and database interaction.
 MySQL: Database used for storing employee information.
 Maven: Dependency management and build automation tool.
-Project Structure
+## Project Structure:
 beans: Contains entity classes representing the database tables.
 Employee
 EmployeeName
@@ -30,62 +30,41 @@ resources: Contains utility classes and configurations.
 Helper
 services: Contains the main class to run the application.
 Main
-Setup and Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/EmployeeManagementSystem.git
-cd EmployeeManagementSystem
-Configure the Database:
 
-Create a MySQL database.
-Update the hibernate.cfg.xml file in the resources directory with your database details.
-Build the project:
 
-bash
-Copy code
-mvn clean install
-Run the Application:
 
-bash
-Copy code
-java -jar target/EmployeeManagementSystem-1.0-SNAPSHOT.jar
-Usage
+
+## Usage
 The application provides a menu-driven interface for performing various operations:
 
-CRUD Operations:
+# CRUD Operations:
 
 Create a new employee.
 Read an employee's details by ID.
 Update an employee's details.
 Delete an employee.
-HQL Queries:
+# HQL Queries:
 
 Fetch employee name and salary by ID.
 Fetch employees with salary greater than a specified amount.
 Update salary by employee ID.
 Delete employee resources by employee ID.
 List employees ordered by salary in descending order.
-Native Queries:
+# Native Queries:
 
 Fetch employee details by ID using native SQL.
 Update salary by employee ID using native SQL.
 Delete employee resources by employee ID using native SQL.
-Aggregate Functions:
+# Aggregate Functions:
 
 Get total salary of all employees.
 Get average salary of all employees.
 Get count of all employees.
 Get minimum salary of all employees.
 Get maximum salary of all employees.
-Contributing
+
+## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or open an Issue for any improvements or bug fixes.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
-Hibernate ORM for providing robust and easy-to-use ORM functionality.
-MySQL for the database management system.
-Maven for project management and build automation.
