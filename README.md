@@ -35,28 +35,28 @@ Main
 
 
 
-## Usage
+# Usage
 The application provides a menu-driven interface for performing various operations:
 
-# CRUD Operations:
+## CRUD Operations:
 
 Create a new employee.
 Read an employee's details by ID.
 Update an employee's details.
 Delete an employee.
-# HQL Queries:
+## HQL Queries:
 
 Fetch employee name and salary by ID.
 Fetch employees with salary greater than a specified amount.
 Update salary by employee ID.
 Delete employee resources by employee ID.
 List employees ordered by salary in descending order.
-# Native Queries:
+## Native Queries:
 
 Fetch employee details by ID using native SQL.
 Update salary by employee ID using native SQL.
 Delete employee resources by employee ID using native SQL.
-# Aggregate Functions:
+## Aggregate Functions:
 
 Get total salary of all employees.
 Get average salary of all employees.
