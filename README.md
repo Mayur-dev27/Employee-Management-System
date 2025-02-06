@@ -8,7 +8,7 @@ HQL Queries: Execute HQL queries to fetch and manipulate employee data.
 Native Queries: Execute native SQL queries for specific operations.
 Aggregate Functions: Perform aggregate functions such as total, average, min, and max salaries.
 ## Technologies Used:
-Java: Core language used for development.
+Java: Core language used for development. 
 Hibernate ORM: For ORM mapping and database interaction.
 MySQL: Database used for storing employee information.
 Maven: Dependency management and build automation tool.
